@@ -12,7 +12,7 @@ export default defineConfig({
     https: true, // Přidáno pro HTTPS
     proxy: {
       "/api": {
-        target: "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/",
+        target: "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com",
         changeOrigin: true,
         secure: true,
       },
