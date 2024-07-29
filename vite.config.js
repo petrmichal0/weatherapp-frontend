@@ -3,6 +3,10 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: "build",
+    sourcemap: false,
+  },
   server: {
     port: 5180, // Frontend běží na portu 5180
     https: true, // Přidáno pro HTTPS
