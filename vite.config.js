@@ -33,7 +33,7 @@ export default defineConfig({
         target: "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com",
         changeOrigin: true,
         secure: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
+
         credentials: "include",
       },
     },
