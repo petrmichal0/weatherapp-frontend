@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa";
 import { addFavoriteCity, removeFavoriteCity } from "../services/apiAuth";
 
-const backendUrl = "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/";
+const backendUrl = "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com";
 
 const Home = () => {
   const { user, setUser } = useApi();
