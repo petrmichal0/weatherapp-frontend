@@ -97,7 +97,12 @@ const Home = () => {
       }
 
       // Aktualizujeme uživatele v kontextu, aby odrážel změny v oblíbených městech
-      const response = await axios.get(`${backendUrl}/api/v1/user/currentUser`);
+      const response = await axios.get(
+        `${backendUrl}/api/v1/user/currentUser`,
+        {
+          withCredentials: true,
+        }
+      );
       if (response.data.status === "success") {
         setUser(response.data.data.user);
       }
