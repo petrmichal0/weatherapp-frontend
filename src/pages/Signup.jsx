@@ -4,10 +4,10 @@ import { signup } from "../services/apiAuth";
 import { useApi } from "../ApiContext";
 
 function Signup() {
-  const [email, setEmail] = useState("petrmichal0@gmail.com");
-  const [password, setPassword] = useState("123456789");
-  const [passwordConfirm, setPasswordConfirm] = useState("123456789");
-  const [name, setName] = useState("TEST");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [passwordConfirm, setPasswordConfirm] = useState("");
+  const [name, setName] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const { setUser } = useApi();

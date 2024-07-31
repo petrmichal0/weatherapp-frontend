@@ -15,13 +15,7 @@ export const ApiProvider = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
-    console.log("Current user value:", user); // Přidejte tento log
-  }, [user]);
-
-  useEffect(() => {
     const getUserData = async () => {
-      console.log("Document Cookies:", document.cookie);
-
       try {
         const response = await axios.get(
           `${backendUrl}/api/v1/user/currentUser`,
@@ -32,7 +26,6 @@ export const ApiProvider = ({ children }) => {
           console.log("User data set:", response.data.data.user);
         } else {
           setUser(null);
-          console.log("API Response Status:", response.data.status);
         }
       } catch (error) {
         console.error("Error fetching user data:", error.response?.data);

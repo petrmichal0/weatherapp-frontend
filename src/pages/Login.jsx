@@ -3,8 +3,8 @@ import { useNavigate, Link } from "react-router-dom";
 import { login } from "../services/apiAuth";
 
 function Login() {
-  const [email, setEmail] = useState("petrmichal0@gmail.com");
-  const [password, setPassword] = useState("12345678910");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
