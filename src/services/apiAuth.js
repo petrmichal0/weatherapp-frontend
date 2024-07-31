@@ -83,7 +83,7 @@ export async function removeFavoriteCity(city) {
     return response.data;
   } catch (error) {
     console.error(
-      "Error removing favorite city:",
+      "Error removing favorite city::",
       error.response || error.message
     );
     throw error;
