@@ -93,7 +93,10 @@ export async function removeFavoriteCity(city) {
 export const resetPassword = async ({ email }) => {
   const response = await axios.post(
     `${backendUrl}/api/v1/user/forgotPassword`,
-    { email }
+    { email },
+    {
+      withCredentials: true,
+    }
   );
   return response.data;
 };
@@ -108,6 +111,9 @@ export const resetPasswordConfirm = async ({
     {
       password,
       passwordConfirm,
+    },
+    {
+      withCredentials: true,
     }
   );
   return response.data;
