@@ -76,11 +76,10 @@ export async function addFavoriteCity(city) {
 
 export async function removeFavoriteCity(city) {
   try {
-    const response = await axios.delete(
-      `${backendUrl}/api/v1/user/favorites`,
-      { data: { cityName: city.cityName, country: city.country } },
-      { withCredentials: true }
-    );
+    const response = await axios.delete(`${backendUrl}/api/v1/user/favorites`, {
+      data: { cityName: city.cityName, country: city.country },
+      withCredentials: true,
+    });
     return response.data;
   } catch (error) {
     console.error(
