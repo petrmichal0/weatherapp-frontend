@@ -4,15 +4,20 @@ import axios from "axios";
 const backendUrl = "https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com";
 
 export async function signup({ name, email, password, passwordConfirm }) {
-  const response = await axios.post(`${backendUrl}/api/v1/user/signup`, {
-    name,
-    email,
-    password,
-    passwordConfirm,
-  });
+  const response = await axios.post(
+    `${backendUrl}/api/v1/user/signup`,
+    {
+      name,
+      email,
+      password,
+      passwordConfirm,
+    },
+    {
+      withCredentials: true,
+    }
+  );
   return response.data;
 }
-
 export async function login({ email, password }) {
   const response = await axios.post(
     `${backendUrl}/api/v1/user/login`,
