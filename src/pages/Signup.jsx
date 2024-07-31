@@ -25,6 +25,7 @@ function Signup() {
     try {
       const response = await signup({ name, email, password, passwordConfirm });
       setUser(response.data.user);
+      console.log(response);
       navigate("/");
     } catch (error) {
       console.error("Error signing up:", error);
