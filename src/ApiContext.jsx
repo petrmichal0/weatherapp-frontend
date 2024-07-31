@@ -24,7 +24,8 @@ export const ApiProvider = ({ children }) => {
 
       try {
         const response = await axios.get(
-          `${backendUrl}/api/v1/user/currentUser`
+          `${backendUrl}/api/v1/user/currentUser`,
+          { withCredentials: true }
         );
         if (response.data.status === "success") {
           setUser(response.data.data.user);
