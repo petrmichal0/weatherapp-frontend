@@ -20,7 +20,7 @@ function ResetPassword() {
         password,
         passwordConfirm: confirmPassword,
       });
-      navigate("/login"); // Přesměrování na přihlašovací stránku po úspěšném resetování hesla
+      navigate("/"); // Přesměrování na úvodní stránku po úspěšném resetování hesla
     } catch (error) {
       console.log("Reset password failed:", error);
     }
