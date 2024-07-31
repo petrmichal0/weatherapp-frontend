@@ -26,7 +26,9 @@ export async function login({ email, password }) {
 }
 
 export async function logout() {
-  const response = await axios.get(`${backendUrl}/api/v1/user/logout`);
+  const response = await axios.get(`${backendUrl}/api/v1/user/logout`, {
+    withCredentials: true,
+  });
   return response.data;
 }
 
