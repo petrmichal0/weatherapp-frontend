@@ -56,7 +56,9 @@ To start the application, run the following command:
 npm run dev
 ```
 
-After starting, go to [http://localhost:3000](http://localhost:3000) in your web browser.
+By default, the development server runs on port 5180. After starting the server, go to [http://localhost:5180](http://localhost:5180) in your web browser to view the application.
+
+If you need to change the port, you can do so in the vite.config.js file under the server section.
 
 ## Screenshots
 
