@@ -72,7 +72,7 @@ The source code for the backend is available on GitHub:
 
 - Backend Repository: [https://github.com/petrmichal0/weatherapp-backend](https://github.com/petrmichal0/weatherapp-backend)
 
-The frontend application communicates with the backend through this API for retrieving weather data and handling user authentication. If you want to set up your own backend instance or contribute to the backend, you can find all the necessary information in the backend repository.
+All API endpoints and detailed documentation on how to interact with the backend are provided in the backend repository. If you want to see the available API requests and how to use them, please visit the backend repository's README or relevant documentation files.
 
 
 ## Screenshots
