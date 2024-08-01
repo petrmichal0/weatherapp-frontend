@@ -7,7 +7,7 @@ WeatherApp is a web application designed to provide weather information to users
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
 ## Quick Look
-<img src="https://github.com/petrmichal0/weatherapp-frontend/assets/demo-image.png" width="700" alt="WeatherApp Demo">
+<img src="https://github.com/user-attachments/assets/e95e9ccf-4f4e-499e-9d4e-34b36885f8ff" width="700" alt="WeatherApp Demo">
 
 ## Table of Content
 - [Project Title and Description](#project-title-and-description)
