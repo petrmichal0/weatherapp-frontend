@@ -66,7 +66,7 @@ If you need to change the port, you can do so in the vite.config.js file under t
 
 The backend for this project is hosted at the following URL:
 
-- Backend API: [https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/](https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/)
+- Backend API: https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/
 
 The source code for the backend is available on GitHub:
 
