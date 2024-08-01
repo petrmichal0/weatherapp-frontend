@@ -1,4 +1,4 @@
-# WeatherApp
+# WeatherApp Frontend
 
 ## Project Title and Description
 WeatherApp is a web application designed to provide weather information to users. It allows users to search for current weather conditions and forecasts for specific locations. The application offers user-friendly interfaces for login, registration, and weather data display.
