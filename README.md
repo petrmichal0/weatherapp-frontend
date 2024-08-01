@@ -14,6 +14,7 @@ WeatherApp is a web application designed to provide weather information to users
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Backend Information](#backend-information)
 - [Screenshots](#screenshots)
 - [Demo (link)](#demo-link)
 - [Project Structure](#project-structure)
@@ -59,6 +60,20 @@ npm run dev
 By default, the development server runs on port 5180. After starting the server, go to [http://localhost:5180](http://localhost:5180) in your web browser to view the application.
 
 If you need to change the port, you can do so in the vite.config.js file under the server section.
+
+
+## Backend Information
+
+The backend for this project is hosted at the following URL:
+
+- Backend API: [https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/](https://my-weatherapp-backend-1a24a5724dcc.herokuapp.com/)
+
+The source code for the backend is available on GitHub:
+
+- Backend Repository: [https://github.com/petrmichal0/weatherapp-backend](https://github.com/petrmichal0/weatherapp-backend)
+
+The frontend application communicates with the backend through this API for retrieving weather data and handling user authentication. If you want to set up your own backend instance or contribute to the backend, you can find all the necessary information in the backend repository.
+
 
 ## Screenshots
 
