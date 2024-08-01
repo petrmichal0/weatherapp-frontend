@@ -95,7 +95,9 @@ If you need to change the port, you can do so in the vite.config.js file under t
 
 ## Demo (link)
 
-Check out the live demo of the application [here](https://weatherapp-frontend-demo.netlify.app/).
+
+
+Check out the live demo of the application [here](https://my-weatherapp-frontend-9e993cefb36f.herokuapp.com/Prague).
 
 ## Project Structure
 
