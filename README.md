@@ -26,8 +26,9 @@ WeatherApp is a web application designed to provide weather information to users
 - Search for weather information by city or location.
 - View detailed weather data including temperature, humidity, wind speed, and forecast.
 - User authentication for personalized weather settings.
+- Ability to add favorite cities after logging in.
 - Responsive design for optimal viewing on different devices.
-
+  
 ## Installation
 
 ### Prerequisites
