@@ -187,10 +187,12 @@ WeatherApp/
 [![Vite Badge](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&labelColor=black&logo=vite&logoColor=646CFF)](#)
 [![TailwindCSS Badge](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=38B2AC)](#)
 
-## Third-Party Libraries
-
-* React Router
-* Axios
+## Third-Party Libraries:
+- **React Router**: A library for handling navigation and routing in React applications.
+- **Axios**: A library for making HTTP requests, simplifying interaction with APIs.
+- **Dotenv**: Allows loading environment variables from `.env` files.
+- **Nodemailer**: A library for sending emails from Node.js applications.
+- **React Icons**: A collection of icons that can be easily used in React projects.
 
 ## License
 
