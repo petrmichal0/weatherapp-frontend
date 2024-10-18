@@ -86,14 +86,20 @@ All API endpoints and detailed documentation on how to interact with the backend
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f" width="300" height="300" alt="Homepage">
-    </td>
-    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38" width="300" height="300" alt="Log in">
-    </td>
-    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67" width="300" height="300" alt="Sign up">
-    </td>
+  <a href="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f">
+    <img src="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f" width="300" height="300" alt="Homepage">
+  </a>
+</td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38">
+    <img src="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38" width="300" height="300" alt="Log in">
+  </a>
+</td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67">
+    <img src="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67" width="300" height="300" alt="Sign up">
+  </a>
+</td>
   </tr>
   <tr>
     <th>After login</th>
@@ -102,14 +108,20 @@ All API endpoints and detailed documentation on how to interact with the backend
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163" width="300" height="300" alt="After login">
-    </td>
-    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066" width="300" height="300" alt="Favorite Cities">
-    </td>
-     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17" width="300" height="300" alt="Forgot Password">
-    </td>
+  <a href="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163">
+    <img src="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163" width="300" height="300" alt="After login">
+  </a>
+</td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066">
+    <img src="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066" width="300" height="300" alt="Favorite Cities">
+  </a>
+</td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17">
+    <img src="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17" width="300" height="300" alt="Forgot Password">
+  </a>
+</td>
   </tr>
 </table>
 
