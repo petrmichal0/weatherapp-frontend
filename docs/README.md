@@ -1,4 +1,3 @@
-
 ## Project Title and Description
 WeatherApp is a web application designed to provide weather information to users. It allows users to search for current weather conditions and forecasts for specific locations. The application offers user-friendly interfaces for login, registration, and weather data display.
 
@@ -85,20 +84,14 @@ All API endpoints and detailed documentation on how to interact with the backend
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f" width="300" height="300" alt="Homepage">
-  </a>
-</td>
-<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38" width="300" height="300" alt="Log in">
-  </a>
-</td>
-<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67" width="300" height="300" alt="Sign up">
-  </a>
-</td>
+      <img src="https://github.com/user-attachments/assets/ebc13b3e-5d93-42d6-a4df-0a2d7786fa7f" width="300" height="300" alt="Homepage">
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/8caf62b6-ad12-4a9d-8416-4488a2c42a38" width="300" height="300" alt="Log in">
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/89a12d6e-819d-4d50-9b14-d0c41e3a0d67" width="300" height="300" alt="Sign up">
+    </td>
   </tr>
   <tr>
     <th>After login</th>
@@ -107,26 +100,18 @@ All API endpoints and detailed documentation on how to interact with the backend
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163" width="300" height="300" alt="After login">
-  </a>
-</td>
-<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066" width="300" height="300" alt="Favorite Cities">
-  </a>
-</td>
-<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17" width="300" height="300" alt="Forgot Password">
-  </a>
-</td>
+      <img src="https://github.com/user-attachments/assets/88388bee-9c3e-4d90-bca5-f1882629e163" width="300" height="300" alt="After login">
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/0004a9ee-5aea-47f8-adc0-c90904e2e066" width="300" height="300" alt="Favorite Cities">
+    </td>
+     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/2d753ae4-a80d-45b4-bf15-ab976a4eac17" width="300" height="300" alt="Forgot Password">
+    </td>
   </tr>
 </table>
 
 ## Demo (link)
-
-
 
 Check out the live demo of the application [here](https://my-weatherapp-frontend-9e993cefb36f.herokuapp.com/Prague).
 
@@ -200,14 +185,13 @@ WeatherApp/
 [![Vite Badge](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&labelColor=black&logo=vite&logoColor=646CFF)](#)
 [![TailwindCSS Badge](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=38B2AC)](#)
 
-## Third-Party Libraries
-
-* React Router
-* Tailwind CSS
-* Axios
-* ESLint
-* Prettier
+## Third-Party Libraries:
+- **React Router**: A library for handling navigation and routing in React applications.
+- **Axios**: A library for making HTTP requests, simplifying interaction with APIs.
+- **Dotenv**: Allows loading environment variables from `.env` files.
+- **Nodemailer**: A library for sending emails from Node.js applications.
+- **React Icons**: A collection of icons that can be easily used in React projects.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
