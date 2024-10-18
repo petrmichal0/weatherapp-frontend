@@ -115,8 +115,6 @@ All API endpoints and detailed documentation on how to interact with the backend
 
 ## Demo (link)
 
-
-
 Check out the live demo of the application [here](https://my-weatherapp-frontend-9e993cefb36f.herokuapp.com/Prague).
 
 ## Project Structure
@@ -192,11 +190,8 @@ WeatherApp/
 ## Third-Party Libraries
 
 * React Router
-* Tailwind CSS
 * Axios
-* ESLint
-* Prettier
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
